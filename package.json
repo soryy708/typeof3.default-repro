@@ -1,0 +1,15 @@
+{
+    "scripts": {
+        "test": "mocha --require @babel/register \"subrepo/{,!(node_modules)/**}/*.test.js\" --exit"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.8.3"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.8.3",
+        "@babel/plugin-transform-runtime": "^7.8.3",
+        "@babel/preset-env": "^7.8.3",
+        "@babel/register": "^7.8.3",
+        "mocha": "^6.2.2"
+    }
+}
