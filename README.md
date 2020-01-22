@@ -2,7 +2,7 @@
 
 1. Clone this repo
 2. `npm install`
-3. `cd subrepo && npm install`
+3. `cd subrepo && npm install && cd ..`
 4. `npm test`
 
 Trace:
