@@ -1,5 +1,10 @@
 * TypeError: (0 , _typeof3.default) is not a function
 
+1. Clone this repo
+2. `npm install`
+3. `cd subrepo && npm install`
+4. `npm test`
+
 Trace:
 
 ```
